@@ -910,6 +910,9 @@ See README.md or https://github.com/fraywing/textAngular/wiki for requirements a
 					scope.$on('$destroy', function(){
 						textAngularManager.unregisterToolbar(scope.name);
 					});
+					scope.$on('deleteToolbar', function(e, data){
+						textAngularManager.unregisterToolbar(data.name);
+					});
 				}
 			};
 		}
