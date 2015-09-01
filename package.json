@@ -30,8 +30,7 @@
     "karma-browserstack-launcher": "0.0.8"
   },
   "scripts": {
-    "test": "grunt",
-    "postinstall": "./node_modules/bower/bin/bower install"
+    "test": "grunt"
   },
   "repository": {
     "type": "git",
